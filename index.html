@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Doctor WHO Hangman</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="game.js"></script>
+       
+	</head>
+	<body>
+
+        <div class="main">
+			<header>
+				<h1 style='margin-left:-50px'>
+                    Doctor WHO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hangman&nbsp;&nbsp;
+                </h1>
+			</header>
+			<div class="main_game">
+				<p id = "command">Press any key to start playing</p>
+				<div class = "col-xs-2">
+				</div>
+			
+				<div class = "left_box col-xs-4">
+					<p>Incorrect Letters Guessed
+					<br>
+					<span id="letters_guessed"></span></p>
+					<br>
+					<p>Number of Guesses Remaining
+					<br>
+					<span id="guesses_remaining"></span></p>
+					<br>
+					<p>Wins
+					<br>
+					<span id="wins"></span></p>
+					<br>
+				</div>
+
+				<div class = "right_box col-xs-4">
+					<p>Current Word 
+					<br>
+					<span id="current_word"></span></p> 
+					<br>
+				</div>
+            </div>
+		</div>
+	</body>
+    </html>

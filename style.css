@@ -1,0 +1,66 @@
+* { 
+    box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	background-image: url("https://i.imgur.com/FWftGoE.jpg");
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Teko', sans-serif;
+    font-weight:900;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+    color: blue;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.5em;
+}
+
+h1{
+    font-size: 6vw;
+    font-family: 'Teko', sans-serif;
+}
+
+p{
+	font-family: 'Teko', sans-serif;
+    font-size: 2.5vw;
+    color: blue;
+    font-weight:900;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    background-color: rgba(0, 0 ,0, 0.3);
+    padding: 0.5em;
+}
+
+div{
+	overflow: auto;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.main{
+    align-content: center;
+}
+
+.main_game{
+    margin-top: 4vh;
+}
+
+.main_game div{
+    text-align: center;
+}
+
+.visibility-hidden{
+    visibility: hidden;
+}
+
+.left_box, .right_box{
+    margin-top: 4vh;
+}
+
+#current_word{
+	letter-spacing: 14px;
+}
+
+
